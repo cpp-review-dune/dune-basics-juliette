@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: primer-proyecto
+Version: 1.0
+Maintainer: krojasl@unal.edu.co
+# Required build dependencies
+Depends: dune-common
+# Optional build dependencies
+#Suggests:
