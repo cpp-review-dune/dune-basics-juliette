@@ -1,0 +1,63 @@
+    1   HISTFILE=/workspace/.gitpod/cmd-0 history -r; { echo "Bienvenido(a) $(whoami)!"; echo 'unset JAVA_TOOL_OPTIONS' >>~/.bashrc; echo 'alias update="yay -Syyu --noconfirm"' >>~/.bashrc; source ~/.bashrc }
+    2  echo "Bienvenido(a) $(whoami)!"
+    3  echo 'unset JAVA_TOOL_OPTIONS' >>~/.bashrc
+    4  echo 'alias update="yay -Syyu --noconfirm"' >>~/.bashrc
+    5  source ~/.bashrc
+    6  mkdir Ejercicio1
+    7  cd Ejercicio1/
+    8  ls
+    9  nano
+   10  nano ejemplo.cc
+   11  ls
+   12  cd ejemplo.cc 
+   13  nano ejemplo.cc 
+   14  g++ ejemplo.cc 
+   15  nano ejemplo.cc 
+   16  g++ ejemplo.cc 
+   17  ls
+   18  ./a.out 
+   19  touch prueba.txt
+   20  nano prueba.txt 
+   21  ls
+   22  g++ prueba.txt 
+   23  nano ejemplo.cc 
+   24  Echo Hello world
+   25  echo "Hello world"
+   26  echo "Hello World">exercise.txt
+   27  ls
+   28  cat exercise.txt 
+   29  mv excersise.txt ejercicio.txt
+   30  mv exercise.txt  ejercicio.txt
+   31  ls
+   32  sed -i 's/Hello/Hola/g' "ejericio.txt"
+   33  cat ejercicio.txt 
+   34  sed -i 's/Hello/Hola/g' "ejericio.txt"
+   35  sed -i 's/Hello/Hola/g' "ejercicio.txt"
+   36  cat ejercicio.txt 
+   37  mkdir ensayo
+   38  cp ejercicio.txt/ensayo
+   39  cp ejercicio.txt ensayo
+   40  cd ensayo/ejercicio.txt 
+   41  cd ensayo/
+   42  ls
+   43  cat ejercicio.txt 
+   44  grep [opciones] pattern [ARCHIVO]
+   45* 
+   46  cd ..
+   47  grep [opciones] pattern [ensayo]
+   48  grep [opciones] pattern [ARCHIVO]grep [opciones] pattern [ARCHIVO]
+   49  grep [opciones] pattern [ARCHIVO]
+   50  grep hola ejercicio.txt 
+   51  ls
+   52  grep world ejercicio.txt 
+   53  history
+   54  history>comandos
+   55  ls
+   56  mv comandos comandos.txt
+   57  ls
+   58  grep
+   59  grep hola ejercicio.txt 
+   60  cat ejercicio.txt 
+   61  grep Hola ejercicio.txt 
+   62  history comandos.txt
+   63  history>comandos.txt 
